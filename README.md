@@ -21,7 +21,7 @@ docker run -d -p 3030:3030 -p 3333:3333 \
     -v `pwd`/rules:/opt/elastalert/rules \
     -v `pwd`/rule_templates:/opt/elastalert/rule_templates \
     --net="host" \
-    --name elastalert bitsensor/elastalert:latest
+    --name elastalert elastalert:teste
 ```
 
 ## Building Docker image

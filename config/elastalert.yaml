@@ -19,6 +19,8 @@ run_every:
 buffer_time:
   minutes: 1
 
+use_local_time: true
+
 # Optional URL prefix for elasticsearch
 #es_url_prefix: elasticsearch
 
